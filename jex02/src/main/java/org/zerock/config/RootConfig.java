@@ -15,7 +15,7 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 
 @Configuration
-@ComponentScan(basePackages= {"org.zerock.service"})
+@ComponentScan(basePackages="org.zerock.service")
 @MapperScan(basePackages= {"org.zerock.mapper"})
 public class RootConfig {
 
@@ -43,3 +43,4 @@ public class RootConfig {
 		return (SqlSessionFactory) sqlSessionFactory.getObject();
 	}
 }
+

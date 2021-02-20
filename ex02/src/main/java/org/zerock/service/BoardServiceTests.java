@@ -27,7 +27,7 @@ public class BoardServiceTests {
 //		board.setContent("새로 작성하는 내용");
 //		board.setWriter("newbie");
 //		
-//		service.resgister(board);
+//		service.register(board);
 //		
 //		log.info("생성된 게시물의 번호: "+board.getBno());
 //		
@@ -49,7 +49,7 @@ public class BoardServiceTests {
 		log.info("REMOVE RESULT: "+service.remove(2L));
 	}
 	
-	@Test
+	@Test 
 	public void testUpdate() {
 		BoardVO board=service.get(1L);
 		

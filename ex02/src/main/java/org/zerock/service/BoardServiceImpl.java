@@ -20,7 +20,7 @@ public class BoardServiceImpl implements BoardService{
 	private BoardMapper mapper;
 
 	@Override
-	public void resgister(BoardVO board) {
+	public void register(BoardVO board) {
 		// TODO Auto-generated method stub
 		
 		log.info("register,,,,,,,"+board);
