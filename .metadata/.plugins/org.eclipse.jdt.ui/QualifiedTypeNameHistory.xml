@@ -53,4 +53,5 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.view.JstlView"/>
+<fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
 </qualifiedTypeNameHistroy>
