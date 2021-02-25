@@ -41,6 +41,6 @@
         .attr("aria-expanded",'false')
         .attr("style","height:1px");
     });
-    </script>s
+    </script>
 </body>
 </html>

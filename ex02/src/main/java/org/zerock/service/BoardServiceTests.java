@@ -7,6 +7,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.zerock.domain.BoardVO;
+import org.zerock.domain.Criteria;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import lombok.Setter;
@@ -35,7 +36,8 @@ public class BoardServiceTests {
 	@Test
 	public void testGetList() {
 		
-		service.getList().forEach(board->log.info(board));
+		//service.getList().forEach(board->log.info(board));
+		service.getList(new Criteria(2,10)).forEach(board->log.info(board));
 	}
 	
 	@Test
